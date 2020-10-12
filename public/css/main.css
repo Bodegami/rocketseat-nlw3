@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+/*-- O atributo VH é conhecido como Viewport Height
+    no caso abaixo é como se ele dividi-se a tela em 100 quadrados,
+    facilitando na leitura e responsividade --*/
+
+    height: 100vh;
+    color: white;
+}
+
+:root {
+    /*-- Por padrão o navegadores tem como media o font-size: 16px
+        é recomendado trabalhar com % pensando em responsividade.
+        Este modelo é altamente recomendado para que os elementos se
+        ajustem ao tamanho da tela sem a necessidade de uma 
+        configuração específica --*/
+
+    font-size: 62.5%;
+}
+
+body, input, button, textarea {
+
+    /* -- O modo shortHand está abaixo 
+        representando os atributos do comentário
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif;
+    */
+
+    /*-- O EM busca a referência do elemento pai anterior ao objeto
+        Já o REM busca referência ao elemento root ou html --*/
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
+
+
