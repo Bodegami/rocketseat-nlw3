@@ -21,7 +21,7 @@ const icon = L.icon({
 })
 
 //create and add marker
-L.marker([-23.6073693,-46.6469192], {icon: icon}).addTo(map)
+L.marker([-23.6073693,-46.6469192], {icon: icon}).addTo(map);
 
 // image gallery 
 
@@ -37,16 +37,16 @@ function selectImage(event) {
     */
 
     const buttons = document.querySelectorAll(".images button")
-    buttons.forEach(removeActiveClass)
+    buttons.forEach(removeActiveClass);
 
     function removeActiveClass(button) {
-        button.classList.remove("active")
+        button.classList.remove("active");
     };
     
     //selecionar a imagem clicada
 
-    const image = button.children[0]
-    const imageContainer = document.querySelector(".orphanage-details > img")
+    const image = button.children[0];
+    const imageContainer = document.querySelector(".orphanage-details > img");
 
     //atualizar o container de imagem
     imageContainer.src = image.src;
