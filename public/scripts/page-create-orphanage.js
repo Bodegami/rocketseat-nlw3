@@ -29,9 +29,7 @@ map.on('click', (event) => {
     
     marker = L.marker([lat, lng], { icon })
     .addTo(map);
-
 })
-
 
 
 // add photos field
@@ -66,9 +64,10 @@ function deleteField(event) {
     const fieldsContainer = document.querySelectorAll('.new-upload')
 
     if(fieldsContainer.length < 2) {
+
         //limpar o valor do campo
         span.parentNode.children[0].value = ''
-        return 
+        return; 
     }
 
     //deletar o campo
@@ -94,9 +93,6 @@ function toggleSelect(event) {
     const button =  event.currentTarget
     button.classList.add('active')
 
-    
-
-    
 
     // atualizar o meu input hidden com o valor selecionado
     const input = document.querySelector('[name="open_on_weekends"]')
@@ -104,8 +100,14 @@ function toggleSelect(event) {
     input.value = button.dataset.value  
 }
 
+function validate(event) {  
 
-    
-    
+    //validar se lat e lng estão preenchidos
+    const mapLat = document.querySelector('input[name="lat"]');
+    const mapLng = document.querySelector('input[name="lng"]');
 
-
+    if(mapLat.value =="" || mapLng.value == "") {
+        event.preventDefault();
+        alert('Selecione um ponto no mapa');
+    }
+}
