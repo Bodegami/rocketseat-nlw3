@@ -33,7 +33,7 @@ L.marker([lat,lng], {icon: icon}).addTo(map)
 const orphanagesSpan = document.querySelectorAll('.orphanages span')
 orphanagesSpan.forEach(span => {
     const orphanage = {
-        ide: span.dataset.id,
+        id: span.dataset.id,
         name: span.dataset.name,
         lat: span.dataset.lat,
         lng: span.dataset.lng
