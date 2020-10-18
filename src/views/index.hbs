@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Happy</title>
 
-        <link rel="icon" href="./public/images/logo-icon.png">
+        <link rel="icon" href="/images/logo-icon.png">
 
-        <link rel="stylesheet" href="./public/css/main.css">
-        <link rel="stylesheet" href="./public/css/animations.css">
-        <link rel="stylesheet" href="./public/css/page-landing.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/animations.css">
+        <link rel="stylesheet" href="/css/page-landing.css">
 
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
     </head>
@@ -20,10 +20,16 @@
                         <img 
                         class="animation-up"
                         id ="logo" 
-                        src="./public/images/logo.svg" 
+                        src="/images/logo.svg" 
                         alt="Logomarca de Happy" />
                 
                         <div class="location animation-up">
+                            <!--    Forma de dinamica de usar o handleBars inserindo uma variavel no html - 2 exemplos
+                            <h1>Olá, {{ name }}</h1>
+                            
+                            <strong>{{city}}</strong>
+                            -->
+
                             <strong>São Paulo</strong>
                             <p>Capital</p>
                         </div>
@@ -35,8 +41,8 @@
                         <section class="visit">
                             <p class="animation-up">Visite orfanatos e mude o dia de muitas crianças</p>
                 
-                            <a href="orphanages.html" title="Visite orfanatos" class="animation-up">
-                                <img src="./public/images/arrow.svg" alt="Ir para o mapa">
+                            <a href="/orphanages" title="Visite orfanatos" class="animation-up">
+                                <img src="/images/arrow.svg" alt="Ir para o mapa">
                             </a>
                         </section>
                     </main>
