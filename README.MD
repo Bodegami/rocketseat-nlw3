@@ -25,7 +25,7 @@ O usuário pode cadastrar uma casa e adicionar fotos, contatos de whatsapp e ema
 
 ## Front end
 
-- Hbs (Template Engine)
+- Handlebars (Template Engine)
 
 # Como executar o projeto
 
@@ -33,7 +33,7 @@ Pré-requisitos: NodeJS v12 ou superior
 
 ```bash
 # clonar repositório
-git clone https://github.com/Bodegami/sds1.git
+git clone https://github.com/Bodegami/rocketseat-nlw3
 
 # entrar na pasta do projeto e executar a instalação das dependências
 npm install
