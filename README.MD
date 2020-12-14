@@ -1,43 +1,55 @@
-<h1 align="center">
-    <img alt="Happy" title="Happy" src=".github/logo.svg" />
-</h1>
+# Happy
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-</p>
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Bodegami/rocketseat-nlw3/blob/master/LICENSE) 
 
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/caioagiani/happy-nlw3">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/caioagiani/happy-nlw3">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/caioagiani/happy-nlw3">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/caioagiani/happy-nlw3">
-</p>
+# Sobre o projeto
 
-<br>
+O Happy é uma aplicação web e mobile desenvolvida durante a 3ª edição do **Next Level Week** (#nlw3), evento organizado pela [Rocketseat](https://rocketseat.com.br/) e ministrado por Maik Brito e Diego Fernandes.
 
-<p align="center">
-  <img alt="Happy" src=".github/happy.png" width="100%">
-</p>
+O objetivo desta aplicação é conectar pessoas à casas de acolhimento institucional de sua região e levar amor até elas. 
 
-## 🚀 Tecnologias
+O usuário pode cadastrar uma casa e adicionar fotos, contatos de whatsapp e email, endereço e marcar sua localização no mapa, tornando visível para os outros usuários da plataforma. Assim é possível que qualquer usuários possa cadastrar ou entrar em contato direto com as casas de acolhimento.
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## Layout 
 
-- [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org)
-- [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
-- [TypeScript](https://www.typescriptlang.org/)
+![Web 1](https://github.com/Bodegami/github-assets/blob/main/Assets/Happy-rocketseat/web-2.png) ![Web 2](https://github.com/Bodegami/github-assets/blob/main/Assets/Happy-rocketseat/web-map2.png) ![Web 3](https://github.com/Bodegami/github-assets/blob/main/Assets/Happy-rocketseat/web-orphanage1.png) 
 
-## 💻 Projeto
 
-O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz 💜
+# Tecnologias utilizadas
 
-## 🔖 Layout
+## Back end
+- NodeJS
+- Express
+- Nodemon
+- SQLite
 
-Nos links abaixo você encontra o layout do projeto web e também do mobile. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
+## Front end
 
-- [Layout Web](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web)
-- [Layout Mobile](https://www.figma.com/file/X27FfVxAgy9f5IFa7ONlph/Happy-Mobile)
+- Hbs (Template Engine)
+
+# Como executar o projeto
+
+Pré-requisitos: NodeJS v12 ou superior
+
+```bash
+# clonar repositório
+git clone https://github.com/Bodegami/sds1.git
+
+# entrar na pasta do projeto e executar a instalação das dependências
+npm install
+
+# executar o projeto
+npm start
+
+# acessar o endereço local
+http://localhost:5500
+```
+
+
+# Autor
+
+Renato Ferreira Oliveira
+
+https://www.linkedin.com/in/renato-ferreira-oliveira-0980b2ba/
+
+
